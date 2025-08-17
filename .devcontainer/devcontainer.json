@@ -1,0 +1,9 @@
+{
+  "name": "PlatformIO",
+  "image": "ghcr.io/platformio/platformio-core",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "features": {},
+  "postCreateCommand": "pio pkg install"
+}
